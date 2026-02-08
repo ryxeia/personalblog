@@ -1,0 +1,118 @@
+.polaroid {
+    width: 400px;
+    height: 550px;
+     background-color: #dea6ca;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-bottom: 25px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: Lucida Handwriting;
+}
+
+.img {
+   mask:
+   radial-gradient(at 70% 31%,#000 29%,#0000 30%),
+   radial-gradient(at 30% 31%,#000 29%,#0000 30%),
+   linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
+
+.glow {
+    text-shadow: 0 0 4px #f29bd2,
+      0 0 20px white,
+      0 0 39px #cfa1be,
+      0 0 40px #f5c045;
+    color: #f7e4f0;
+}
+
+.glow1 {
+    text-shadow: 0 0 4px #f29bd2,
+      0 0 20px white,
+      0 0 39px white,
+      0 0 40px white,
+      0 0 80px white;
+    color: white;
+}
+
+.glow2 {
+    text-shadow: 0 0 4px #d9caba,
+      0 0 20px white,
+      0 0 39px white,
+      0 0 40px white,
+      0 0 80px white;
+    color: white;
+}
+
+.glow3 {
+    text-shadow: 0 0 4px #d67615,
+      0 0 20px #d67615,
+      0 0 39px #d67615,
+      0 0 40px #d67615,
+      0 0 80px #d67615;
+    color: white;
+}
+
+.glow4 {
+    text-shadow: 0 0 4px black,
+      0 0 20px black,
+      0 0 39px black,
+      0 0 40px #ff4dbe,
+      0 0 80px #ff4dbe;
+    color: white;
+}
+
+.glow5 {
+    font-size: 15px;
+    font-family: Trebuchet MS;
+    text-shadow: 0 0 4px black,
+      0 0 20px black,
+      0 0 39px black,
+      0 0 40px #ff4dbe,
+      0 0 80px #ff4dbe;
+    color: white;
+}
+
+.highlight {
+    font-family: Lucida Handwriting;
+    color: #ff4dbe;
+}
+
+.highlight1 {
+    color: #d67615;
+}
+
+p {
+    font-family: Trebuchet MS;
+    font-size: 20px;
+}
+
+a:link {
+    color: #d67615;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple; 
+}
+
+a:hover {
+    color: #ff4dbe;
+}
+
+.box3 {
+    width: 400px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px 3px white;
+    font-family: Trebuchet MS;
+    padding: 5px;
+}
